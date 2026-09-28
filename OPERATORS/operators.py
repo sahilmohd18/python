@@ -1,15 +1,16 @@
+#arithmatic operators
 #s="sahil"+"mohammad"
-#print(s)
+#print(s)     
 
-s1="sahil"*2
-s2=2*"sahil"
-print(s1)
-print(s2)
-
-# s1="sahil"*"2"
+# s1="sahil"*2
+# s2=2*"sahil"
 # print(s1)
+# print(s2)
+# s="sahil"+2
+# print(s)   #also checing scripting feature of python.
 
-#relational operator
+
+# relational operator
 # a,b="sahil","mohd"
 # print(a>b)
 

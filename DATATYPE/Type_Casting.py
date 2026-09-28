@@ -33,13 +33,13 @@
 
 
 #str()--no restriction(any to any)
-print(str(1))
-print(str(0b10))
-print(str(0x10))
-print(str(10.5))
-print(str(True))
-print(str(10+20j))
-print(str(1))
+# print(str(1))
+# print(str(0b10))
+# print(str(0x10))
+# print(str(10.5))
+# print(str(True))
+# print(str(10+20j))
+# print(str(1))
 
 
 

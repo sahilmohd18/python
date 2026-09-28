@@ -5,8 +5,7 @@ for x in s:
         output=output+x
         previous=x
     else:
-        newch=chr(ord(previous)+int(x ))
+        newch=chr(ord(previous)+int(x))
         output=output+newch
 print(output)            
 
-    

@@ -11,11 +11,11 @@
 
 # print with "sep" attribute.
 
-a,b,c=10,20,30
+# a,b,c=10,20,30
 #print("The result is:",a,b,c)
 # print(a,b,c)  --->default separator is space
 # print(a,b,c,sep='')
-print(a,b,c,sep=',')
+# print(a,b,c,sep=',')
 #print(a,b,c,sep=':')
 #print(a,b,c,sep=';')
 

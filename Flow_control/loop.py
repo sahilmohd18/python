@@ -315,13 +315,13 @@
 
 
 #Requirement--->Reverse a number.
-# num=int(input("Enter Number To Reverse it:"))
-# num=int(input("enter no:"))
-# sum=0
-# while num>0:
-#     sum=num%10
-#     print(sum,end='')
+# num=int(input("Enter Any Number:"))
+# reverse=0
+# while num!=0:
+#     lastD=num%10
+#     reverse=reverse*10+lastD
 #     num=num//10
+# print(reverse)
 
 
 
@@ -374,33 +374,75 @@
 # print(gno2)
 
 
-num=int(input("Enter Number:"))
-lastD=0
-gno=0
-gno2=0
-while num>0:
-    lastD=num%10
-    if lastD>gno:
-        gno=lastD
-        if lastD<gno and lastD>gno2:
-            gno2=lastD
-        else:pass
-    else:pass
-    num=num//10
-print(gno2)
-
-
-
-
-
-
-
-
-    
-
+# num=int(input("Enter Number:"))
+# lastD=0
+# gno=0
+# gno2=0
+# while num>0:
+#     lastD=num%10
+#     if lastD>gno:
+#         gno=lastD
+#         if lastD<gno and lastD>gno2:
+#             gno2=lastD
+#         else:pass
+#     else:pass
+#     num=num//10
+# print(gno2)
 
 
 #Requirement--->Find the smallest digit.
+
+
+#Requirement:Check whether a number is a palindrome.
+# num=int(input("Enter Any Number:"))
+# original_no=num
+# lastD=0
+# reverse=0
+# while num!=0:
+#     lastD=num%10
+#     reverse=reverse*10+lastD
+#     num=num//10
+# if reverse==original_no:
+#     print("Number is a palindrome number.")
+# else:
+#     print("number is not a palindrome number.")
+
+
+#Requirement:Check whether a number is an Armstrong number.
+
+#Requirement:check whether a number is a strong number.
+
+
+#Requirement:Count how many even and odd digits are present in a number.(can do it separately)
+# num=int(input("Enter Number:"))
+# prime_no=0
+# odd_no=0
+# while num!=0:
+#     lastD=num%10
+#     if lastD%2==0:
+#         prime_no+=1
+#     else:
+#         odd_no+=1
+#     num=num//10
+# print("Total count of prime number is",prime_no,
+#       "And odd number is",odd_no)
+
+
+#Requirement:Find the sum of even digits and the sum of odd digits separately.
+# num=int(input("Enter Number:"))
+# sumPN=0
+# sumON=0
+# while num!=0:
+#     lastD=num%10
+#     if lastD%2==0:
+#         sumPN+=lastD
+#     else:
+#         sumON+=lastD
+#     num=num//10
+# print("Sum of even digit =",sumPN)
+# print("Sum of odd digit =",sumON)
+
+
 
 
 

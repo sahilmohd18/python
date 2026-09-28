@@ -206,15 +206,15 @@
 
 
 #--->Requirement:Find the largest among three numbers.
-num1=eval(input("Enter first Number:"))
-num2=eval(input("Enter second Number:"))
-num3=eval(input("Enter third Number:"))
-if num1>num2 and num3:
-    print("First number",num1,"is the largest no.")
-elif num2>num3:
-    print("Second number",num2,"is the largest no.")
-else:
-    print("Third number",num3,"is the largest no.")
+# num1=eval(input("Enter first Number:"))
+# num2=eval(input("Enter second Number:"))
+# num3=eval(input("Enter third Number:"))
+# if num1>num2 and num3:
+#     print("First number",num1,"is the largest no.")
+# elif num2>num3:
+#     print("Second number",num2,"is the largest no.")
+# else:
+#     print("Third number",num3,"is the largest no.")
 
 
 

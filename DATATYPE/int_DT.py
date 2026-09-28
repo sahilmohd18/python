@@ -1,7 +1,7 @@
-a=10
-b=0b10
-c=0o10
-d=0x10
+# a=10
+# b=0b10   #int value but binary form
+# c=0o10   #int value but octal form
+# d=0x10   #int value but hexaD form
 
 #BASE CONVERSION- decimal to other 
 # print(bin(a))
@@ -26,34 +26,38 @@ d=0x10
 #BASE CONVERSION (2nd way)- First assign variables to conversion fx then printing variable 
 
 #decimal to other
-E=bin(a)
-F=oct(a)
-G=hex(a)
+# E=bin(a)
+# F=oct(a)
+# G=hex(a)
 
 #binary to other
-H=int(b)
-I=oct(b)
-J=hex(b)
+# H=int(b)
+# I=oct(b)
+# J=hex(b)
 
 #octal to other
-K=int(c)
-L=bin(c)
-M=hex(b)
+# K=int(c)
+# L=bin(c)
+# M=hex(b)
 
 #hexadecimal to other
-N=int(d)
-O=bin(d)
-P=oct(d)
+# N=int(d)
+# O=bin(d)
+# P=oct(d)
 
-print(E)
-print(F)
-print(G)
-print(H)
-print(I)
-print(J)
-print(K)
-print(L)
-print(M)
-print(N)
-print(O)
-print(P)
+# print(E)
+# print(F)
+# print(G)
+# print(H)
+# print(I)
+# print(J)
+# print(K)
+# print(L)
+# print(M)
+# print(N)
+# print(O)
+# print(P)
+
+
+a=1245
+print(a[0])

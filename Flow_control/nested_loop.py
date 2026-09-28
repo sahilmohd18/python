@@ -1,18 +1,18 @@
-city=["LUCKNOW","MUMBAI","DELHI","JAIPUR"]
-zones=["north","south","east","west"]
-sr=1
+# city=["LUCKNOW","MUMBAI","DELHI","JAIPUR"]
+# zones=["north","south","east","west"]
+# sr=1
 # for c in city:
 #      for z in zones:
 #         print(z)
 
 #      print(c)     
 
-for c in city:
-    print(sr,')',c,"city can be divided into-",end='')
-    for z in zones:
-        print(z,end=';')
-    print()
-    sr+=1    
+# for c in city:
+    # print(sr,')',c,"city can be divided into-",end='')
+    # for z in zones:
+    #     print(z,end=';')
+    # print()
+    # sr+=1    
 
 # city=["lucknow","mumbai","delhi","jaipur"]
 # for c in city:
@@ -42,9 +42,6 @@ for c in city:
 #     a+=1 
 #     j=0   
 #     print()
-
-
-
 
 
 
