@@ -1,3 +1,12 @@
+# list=eval(input('enter some string:'))
+# print(type(list))
+
+
+
+
+
+
+
 #i am doing it in elaborate way.
 #refrence sharing in list or not.
 # list=[1,2,3,4,5]
@@ -65,7 +74,7 @@
 
 # l1=[10,20,30]
 # l2=[40,50,60]
-# l3=l1+l2
+# l3=l1+l2   #list aliasing
 # # print(l3)
 # l4=l3*3
 # # print(l4)
@@ -82,12 +91,20 @@
 list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
 # for i in list:
 #   print(i)
+
 # print(dir(list))
+
 # x=int(input('enter element to check in list:'))
 # if x in list:
 #     print("{} is prexent at index no {}".format(x,list.index(x)))
 # else:
 #     print(x,"not present in list.")
+
+# index=0
+# for i in list:
+#     print('the value present at +ve index {} and -ve index {} is {}'.format(index,index-len(list),i).title())
+#     index=index+1
+
 # print(list[4][2][2][2:6])
 # print(list[5][1])
 # print(dir(list))
@@ -96,7 +113,31 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 # print(list[4][2].index('mohammad'))
 # print(list[4][2].count(10))
 # print(len(list))
+# print(type(list))
+# print(type(list[0]))
+# print(type(list[3]))
+# print(type(list[4]))
+# print(type(list[4][2]))
+# print(type(list[5]))
 
+
+
+
+# LIST ALIASING AND LIST CLONING.
+# list1=[50,'methods',(10,'python',10.5),[10,'hashtag',True]]
+# list2=list1
+# list3=[50,'methods',(10,'python',10.5),[10,'hashtag',False]]
+# list4=list3.copy()
+# print(list1==list2)
+# print(list1 is list2)
+# print(id(list1))
+# print(id(list2))
+# list2.append(10)
+# print(list2)
+# print(list1)
+# list4.append(20)
+# print(list4)
+# print(list3)
 
 
 
@@ -104,9 +145,10 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 
 
 # METHODS in list.
-list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
+
 # adding into list:-append(),insert(),extend()
 
+# list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
 #1 list.append('sahil')
 # print(list)
 #2 list.append([80,90,124])
@@ -120,43 +162,83 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 #6 list.append((10,20,30))
 # print(list)
 #7 list.append((10))
-# print(list)
+# print(list)      #not a tuple but own datatype
 #8 list.append((10,))
 # print(list)
 #9 list.append([10])
 # print(list)
-
-
-
 
 #1 list.insert(2,'pencil')
 # print(list)
 #2 list.insert(0,'sahil')
 # print(list)
 #3 list.insert(100,10)
-# print(list)          # incase indexno out of range and is +ve -add in last.
+# print(list)          # incase indexno out of range and is +ve ->add in last.
 #4 list.insert(-100,10)
-# print(list)          # incase indexno out of range and is -ve -add in beginning.
+# print(list)          # incase indexno out of range and is -ve ->add in beginning.
 #5 list.insert()
 # print(list)          # ERROR
 #6 list.insert(10,'enter',20)
 # print(list)            # ERROR
 #7 print(len(list))
-# list.insert(2,[10,20,30])
+#8 list.insert(2,[10,20,30])
 # print(list)
 # print(len(list))
 
-
-
-
-
-
-
-# list.extend([80,90,124])
+#1 list.extend([80,90,124],)
 # print(list)
-
+#2 list.extend('sahil',10)
+# print(list)           #ERROR- extend will accept only one agr & should be iterable.
+#3 list.extend((10,5.6))
+# print(list)
+#4 print(list)
 # list.extend('water')
 # print(list)
 
 
 
+# Removing from list--remove(),pop(),clear().
+# list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
+#1 list.remove(1)
+# print(list)
+#2 list.remove('sharif')
+# print(list)         #V/E:value not present in list as list element.
+#3 print(len(list))
+# list.remove(['shahida',1978,(10,20,'mohd sharif')])
+# print(list)
+# print(len(list))
+#4 list.remove(1,2)
+# print(list)         #T/E:remove() take only one arg.
+#5 list.remove(3)
+# print(list)         # if xple occurance of same value--> first occurance will get removed.
+
+
+#1 print(list.pop(1))  # return value removing.
+# print(list)
+#2 print(list.pop(12))
+# print(list)          #INDEX ERROR.
+#3 print(list)
+# print(list.pop())
+# print(list)
+#4 list.clear()
+# print(list.pop())    #don't work on empty list.
+# print(list)
+
+
+# list.clear()
+# print(list)     #give empty list.
+ 
+
+
+
+# ordering element of list--reverse(),sort().
+list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
+
+#1 list.reverse()
+# print(list)
+#2 l=[5,2,3,6,8,1,7]
+# l.sort()
+# print(l)
+l=['sahil','abdul','zoraver','kaamil','roshan']
+l.sort()
+print(l)
