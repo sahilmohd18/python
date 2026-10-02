@@ -232,13 +232,17 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 
 
 # ordering element of list--reverse(),sort().
-list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
+# list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
 
 #1 list.reverse()
 # print(list)
 #2 l=[5,2,3,6,8,1,7]
 # l.sort()
 # print(l)
-l=['sahil','abdul','zoraver','kaamil','roshan']
-l.sort()
-print(l)
+#3 l=['sahil','abdul','zoraver','kaamil','roshan']
+# l.sort()
+# print(l)
+
+
+str='python'
+print(str.split('py'))
