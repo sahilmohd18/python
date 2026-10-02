@@ -1,5 +1,4 @@
-# list=eval(input('enter some string:'))
-# print(type(list))
+
 
 
 
