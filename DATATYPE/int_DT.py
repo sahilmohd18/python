@@ -60,4 +60,8 @@
 
 
 a=1245
-print(a[0])
+# print(a[0])
+# print(dir(a))
+# print(a.is_integer())
+print(a.bit_count())
+print(a.bit_length())

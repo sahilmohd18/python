@@ -22,4 +22,6 @@ h=1.3e1
 
 # Some oprations
 #print(h+g)
-print(h*g)
+# print(h*g)
+
+print(dir(2.5))

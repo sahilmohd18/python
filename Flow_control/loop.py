@@ -153,14 +153,14 @@
 
 
 # Requirement--->Count how many numbers between 1 and N are divisible by 7.
-# num=int(input("Enter N Number:"))
-# c=0
-# for i in range(1,num+1):
-#     if i%7==0:
-#         c+=1
-#     else:pass
+num=int(input("Enter N Number:"))
+c=0
+for i in range(1,num+1):
+    if i%7==0:
+        c+=1
+    else:pass
 
-# print("The Total numbers of Number Between 0 -",num,"Which Are Divisible By 7","=",c)
+print("The Total numbers of Number Between 0 -",num,"Which Are Divisible By 7","=",c)
 
 
 # Requirement--->Find the product of numbers from 1 to N (Factorial).

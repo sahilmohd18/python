@@ -1,17 +1,100 @@
-# str0='saaahil[1,2,3]'
-# print(str0[1])
-# print(ord(str0[1]))
-# print(str0.replace('a','h'))
-# print(str0.replace('a','h',1))
-# print(str0[-1])
 
-# str1='The quick brown fox jumps over the lazy dog'
-# a=(str1[4:9].upper())
-# str2=str1.replace('quick',a)
+
+str1='Method which is starting with double underscores or ending with it'.lower()
+
+# upper()
+#1 print(str1[4:9].upper())
+#2 str1.upper()
+# print(str1)     # This code is not producing exp. result.
+#3 print(str1.upper())
+
+
+# title()
+#1 print(str1.title())
+#2 str1.title()
+# print(str1)     # This code is not producing exp. result.
+
+
+# capitalize()
+#1 print(str1.capitalize())
+#2 str1.capitalize()
+# print(str1)     # This code is not producing exp. result.
+
+
+# swapcase()
+#1 print(str1.swapcase())
+#2 str1.swapcase()
+# print(str1)     # This code is not producing exp. result.
+
+
+# isalpha()
+#1 print(str1.isalpha())
+#2 print(str1[0].isalpha())
+
+
+# startwiths()
+#1 print(str1.startswith('T'))
+#2 print(str1.startswith('t'))
+#3 print(str1.lower().startswith('t'))   #trying method chaining.
+
+
+# count()
+#1 print(str1.count('o'))
+
+
+# replace()
+#1 str2=str1.replace('quick','a')
 # print(str2)
-# print(str2.replace('QUICK','quick'))
+#2 print(str2.replace('QUICK','quick'))
+#3 str1.replace('quick','sharp')
+# print(str1)
+#4 str2=str1.replace('quick','sharp')
+# print(str2)
+# print(id(str1))
+# print(id(str2))
+#5 print(str1)
+# str2=str1.replace('t','b')
+# print(str2)
+#6 print(str1)
+# str2=str1.replace('t','b',2)
+# print(str2)
+#7 s='abababa'
+# print(id(s))
+# print(s.replace('a','b'))      # it will print the after replacement string.
+# print(id(s.replace('a','b')))
+# print(id(s))
+#7 s='durga software solutions'
+# s1=s.replace(' ','')
+# s2=s.replace(' ','-')
+# print(s1)
+# print(s2)
+# print(s)
+# print(id(s1))
+# print(id(s))
 
 
+
+# .find(), .rfind(), .index(), .rindex()---> to find the index position of sub-string.
+s='industry best facaf'
+# print(s.find('d',5,13))     # finding starting from left to right & specific index pack.
+# print(s.find('t'))          # finding starting from left to right.
+# print(s.rfind('t'))         # finding starting from right to left.
+# print(s.rfind('a',14,19))   # finding starting from right to left direction & specific index pack.
+
+
+# print(s.index('d'))            
+# print(s.rindex('d',5,100))
+# print(s.index('m'))
+# print(s.rindex('m'))         # index and rindex method same as find and rfind method except return response in case sub string not found in main string
+
+
+# strip(),rstrip(),lstrip()
+locity=['lucknow','mumbai','kanpur','bangaluru']
+city=input("enter any city name:").strip().lower()
+if city in locity:
+    print("{} is your selected city".format(city))
+else:
+    print("city not found.")
 
 
 
@@ -298,35 +381,9 @@ print(s[-2:2])
 
 
 
-# .find(), .rfind(), .index(), .rindex()---> to find the index position of sub-string.
-# s='industry best facaf'
-# print(s.find('s',5,13))     # finding starting from left to right & specific index pack.
-# print(s.find('t'))          # finding starting from left to right.
-# print(s.rfind('t'))         # finding starting from right to left.
-# print(s.rfind('a',14,19))   # finding starting from right to left direction & specific index pack.
-# print(s.index('d'))            
-# print(s.rindex('d',5,100))
-# print(s.index('m'))
-# print(s.rindex('m'))         # index and rindex method same as find and rfind method except return response in case sub string not found in main string
 
 
-# strip(),rstrip(),lstrip()
-# locity=['lucknow','mumbai','kanpur','bangaluru']
-# city=input("enter any city name:").strip()
-# if city in locity:
-#     print("{} is your selected city".format(city))
-# else:
-#     print("city not found.")
 
-
-# s='abababa'
-# print(s.replace('a','b'))
-# s='durga software solutions'
-# s1=s.replace(' ','')
-# print(s1)
-# print(s)
-# print(id(s1))
-# print(id(s))
 
 
 
@@ -561,11 +618,11 @@ print(s[-2:2])
 # print("The last word in given string is:",last_word[::-1])
 
 # 10 REQUIREMENT: Check if a string has all unique characters (no repeats), without using a set.
-str=input('Enter some string:')
-newstr=''
-for i in str:
-    if i not in newstr:
-        newstr=newstr+i
+# str=input('Enter some string:')
+# newstr=''
+# for i in str:
+#     if i not in newstr:
+#         newstr=newstr+i
 
     
 
