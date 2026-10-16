@@ -1,4 +1,7 @@
-list=[10,20,'sahil']
+# a=10.5
+# b=list(a)
+# print(b)
+# print(type(b))
 
 
 
@@ -87,7 +90,7 @@ list=[10,20,'sahil']
 
 
 # INDEXING AND SLICING IN LIST.
-list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
+# list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
 # for i in list:
 #   print(i)
 
@@ -148,49 +151,49 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 # adding into list:-append(),insert(),extend()
 
 # list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
-#1 list.append('sahil')
+# 1 list.append('sahil')
 # print(list)
-#2 list.append([80,90,124])
+# 2 list.append([80,90,124])
 # print(list)
-#3 list.append('sahil',[80,90,210])
+# 3 list.append('sahil',[80,90,210])
 # print(list)    # append() will accept only one arg mandatorly. and that is--value to append.
-#4 list.append(10)
+# 4 list.append(10)
 # print(list)
-#5 list.append(10,20,30)
+# 5 list.append(10,20,30)
 # print(list)      # ERROR
-#6 list.append((10,20,30))
+# 6 list.append((10,20,30))
 # print(list)
-#7 list.append((10))
+# 7 list.append((10))
 # print(list)      #not a tuple but own datatype
-#8 list.append((10,))
+# 8 list.append((10,))
 # print(list)
-#9 list.append([10])
+# 9 list.append([10])
 # print(list)
 
-#1 list.insert(2,'pencil')
+# 1 list.insert(2,'pencil')
 # print(list)
-#2 list.insert(0,'sahil')
+# 2 list.insert(0,'sahil')
 # print(list)
-#3 list.insert(100,10)
+# 3 list.insert(100,10)
 # print(list)          # incase indexno out of range and is +ve ->add in last.
-#4 list.insert(-100,10)
+# 4 list.insert(-100,10)
 # print(list)          # incase indexno out of range and is -ve ->add in beginning.
-#5 list.insert()
+# 5 list.insert()
 # print(list)          # ERROR
-#6 list.insert(10,'enter',20)
+# 6 list.insert(10,'enter',20)
 # print(list)            # ERROR
-#7 print(len(list))
-#8 list.insert(2,[10,20,30])
+# 7 print(len(list))
+# list.insert(2,[10,20,30])
 # print(list)
 # print(len(list))
 
-#1 list.extend([80,90,124],)
+# 1 list.extend([80,90,124],)
 # print(list)
-#2 list.extend('sahil',10)
+# 2 list.extend('sahil',01)
 # print(list)           #ERROR- extend will accept only one agr & should be iterable.
-#3 list.extend((10,5.6))
+# 3 list.extend((10,5.6))
 # print(list)
-#4 print(list)
+# 4 print(list)
 # list.extend('water')
 # print(list)
 
@@ -198,28 +201,28 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 
 # Removing from list--remove(),pop(),clear().
 # list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
-#1 list.remove(1)
+# 1 list.remove(1)
 # print(list)
-#2 list.remove('sharif')
+# 2 list.remove('sharif')
 # print(list)         #V/E:value not present in list as list element.
-#3 print(len(list))
+# 3 print(len(list))
 # list.remove(['shahida',1978,(10,20,'mohd sharif')])
 # print(list)
 # print(len(list))
-#4 list.remove(1,2)
+# 4 list.remove(1,2)
 # print(list)         #T/E:remove() take only one arg.
-#5 list.remove(3)
+# 5 list.remove(3)
 # print(list)         # if xple occurance of same value--> first occurance will get removed.
 
 
-#1 print(list.pop(1))  # return value removing.
+# 1 print(list.pop(1))  # return value removing.
 # print(list)
-#2 print(list.pop(12))
+# 2 print(list.pop(12))
 # print(list)          #INDEX ERROR.
-#3 print(list)
+# 3 print(list)
 # print(list.pop())
 # print(list)
-#4 list.clear()
+# 4 list.clear()
 # print(list.pop())    #don't work on empty list.
 # print(list)
 
@@ -233,15 +236,15 @@ list=[1,2,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(
 # ordering element of list--reverse(),sort().
 # list=[1,2,3,3,'powershell',(10,'sahil',[10,20,'mohammad',10,10]),['shahida',1978,(10,20,'mohd sharif')]]
 
-#1 list.reverse()
+# 1 list.reverse()
 # print(list)
-#2 l=[5,2,3,6,8,1,7]
+# 2 l=[5,2,3,6,8,1,7]
 # l.sort()
 # print(l)
-#3 l=['sahil','abdul','zoraver','kaamil','roshan']
+# 3 l=['sahil','abdul','zoraver','kaamil','roshan']
 # l.sort()
 # print(l)
 
+from set_DT import *
+print(s)
 
-str='python'
-print(str.split('py'))
