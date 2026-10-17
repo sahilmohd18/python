@@ -30,7 +30,7 @@ print(x is not y)
 # print(type(y))
 
 
-#many values to multiple varibales(x,y,z=a,b,c)--remembar the calender eg
+# many values to multiple varibales(x,y,z=a,b,c)--remembar the calender eg
 # name1,name2,name3="sahil","sharif","Palik"
 # print(name1)
 # print(name2)
