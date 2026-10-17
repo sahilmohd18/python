@@ -25,3 +25,6 @@ str4="""durga sofyware"""
 
 # div of two numer
 #print(num1/num2)
+
+import functions
+print(dir(functions))
